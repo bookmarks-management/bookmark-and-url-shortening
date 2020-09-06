@@ -25,12 +25,12 @@ _By above these two, we can solve the problem of generating tiny URLs quickly an
 * User should be able to create cards representing the url where each card has a short title, brief description and a customizable picture. 
 * Default picture would be the favicon of the serving application. A sample pen sketch is as below:
 
-![Card](/images/card.png)
+![Card](/images.png)
 
 * User should be able to group cards in terms of tribes, feature teams, platforms or application. This would be like a catalog. User should be able to share the group urls.
 A sample pen sketch is as below:
 
-![Group cards](/images/group-cards.png)
+![Group cards](/imagesp-cards.png)
 
 * Each card should be a short url with the re-direction to the original url. 
 This short url will have **no expiration as it belongs to a group**.
@@ -86,8 +86,3 @@ The cards need to be re-usable and support multiple browser with any underlying 
 * Database
   * PostgreSQL
     
-    
-## Task List
-- [x] Create your own organization
-- [ ] Create repositories for this hackathon
-- [ ] Make your repositories private and use this for this hackathon
