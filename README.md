@@ -17,6 +17,7 @@ A shorter url will become easy to share in this case.
 ## Requirements and goals
 
 ### Functional requirements
+
 * User should generate short URLs which will expire after a standard default time span. 
 * User should also be able to specify the expiration date. 
 
@@ -85,4 +86,12 @@ The cards need to be re-usable and support multiple browser with any underlying 
   * Framework: React
 * Database
   * PostgreSQL
+
     
+## CI\CD
+
+* Job runner: TravisCI 
+* Coverage report:  Codecov for test running and reporting coverage
+* Quality report: Codacy for checking your code quality
+* Kibana\Grafana dashboard for monitoring
+* Cloud server: Heroku
